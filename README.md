@@ -2,7 +2,7 @@
 
 git clone https://github.com/kmcolli/metrics-sample-app
 
-oc new-app metrics-sample-app
+oc new-project metrics-sample-app
 
 oc apply -f metrics-sample-app
 
